@@ -1094,7 +1094,7 @@
     transform: translateX(-100%);
   }
   .image-anime.politition img {
-    width: 300px ;
+    width: 300px;
   }
 }
 
@@ -1120,22 +1120,40 @@
   .product-info {
     margin-top: 50px;
   }
-  .polititionMain, .polititionUpper{
+  .polititionMain,
+  .polititionUpper {
     padding-left: 0;
   }
-
 }
 @media (max-width: 767px) {
   .polititionUpper {
     display: flex;
     justify-content: center;
+    padding: 0;
   }
-  .polititionMain{
+  .polititionMain {
     padding-top: 20px;
   }
   #home {
     padding-bottom: 10px;
-}
+  }
+  .productionText{
+    display: flex;
+    font-size: 16px;
+    gap: 5px;
+  }
+  .publicSector img{
+    width: 70px;
+  }
+  .publicSectorsection{
+    display: flex;
+  }
+  #home-2{
+    padding: 0;
+  }
+  #myChart{
+    height: 414px !important;
+  }
 }
 @media (max-width: 770px) {
   .checkout-coupon-form .btn {
