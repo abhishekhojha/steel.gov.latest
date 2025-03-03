@@ -1154,6 +1154,10 @@
   #myChart{
     height: 320px !important;
   }
+  .backboneOfIndia{
+    padding: 10px;
+    background: #ffffff8a;
+  }
 }
 @media (max-width: 770px) {
   .checkout-coupon-form .btn {
