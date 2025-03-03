@@ -1152,7 +1152,7 @@
     padding: 0;
   }
   #myChart{
-    height: 414px !important;
+    height: 320px !important;
   }
 }
 @media (max-width: 770px) {
