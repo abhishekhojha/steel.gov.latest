@@ -1133,6 +1133,9 @@
   .polititionMain{
     padding-top: 20px;
   }
+  #home {
+    padding-bottom: 10px;
+}
 }
 @media (max-width: 770px) {
   .checkout-coupon-form .btn {
