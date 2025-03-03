@@ -1147,6 +1147,7 @@
   }
   .publicSectorsection{
     display: flex;
+    justify-content: center;
   }
   #home-2{
     padding: 0;
