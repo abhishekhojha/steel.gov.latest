@@ -1163,6 +1163,9 @@
   .text-center ,.text-center a{
     text-align: center;
   }
+  .footer{
+    flex-direction: column;
+  }
 }
 @media (max-width: 770px) {
   .checkout-coupon-form .btn {

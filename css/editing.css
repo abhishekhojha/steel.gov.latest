@@ -61,7 +61,6 @@
   text-align: center;
   border-top: 2px solid #ddd;
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .footer a {
