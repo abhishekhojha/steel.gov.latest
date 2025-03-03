@@ -1,0 +1,121 @@
+/* Animation */
+/* Fade In */
+.fade-in {
+  animation-name: fade-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade Out */
+.fade-out {
+  animation-name: fade-out;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: scale(3);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+/* Fade in while moving to upper right */
+.fade-in-to-upper-right {
+  animation-name: fade-in-to-upper-right;
+}
+
+@keyframes fade-in-to-upper-right {
+  from {
+    opacity: 0;
+    top: 350px;
+    left: 0px;
+    scale: 0;
+  }
+
+  to {
+    opacity: 1;
+    top: 0px;
+    left: 350px;
+    scale: 1;
+  }
+}
+
+/* Fade in and out while moving to lower right */
+.fade-in-out-to-lower-right {
+  animation-name: fade-in-out-to-lower-right;
+}
+
+@keyframes fade-in-out-to-lower-right {
+  from {
+    opacity: 0;
+    top: 400px;
+    left: 0px;
+    scale: 0;
+  }
+  50% {
+    opacity: 1;
+    top: 150px;
+    left: 150px;
+    scale: 2;
+  }
+
+  to {
+    opacity: 0;
+    top: 400px;
+    left: 400px;
+    scale: 0;
+  }
+}
+
+/**************************************/
+/* Color, Body and Container Settings */
+/**************************************/
+/* Center shapes */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Set light gray border */
+.container {
+  width: 500px;
+  height: 500px;
+  border: 5px solid lightgray;
+  background: royalblue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  margin: 5px;
+}
+
+/* Shape */
+.circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: burlywood;
+  border-radius: 50%;
+  animation-duration: 3s;
+  /* animation-iteration-count: 3; */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}

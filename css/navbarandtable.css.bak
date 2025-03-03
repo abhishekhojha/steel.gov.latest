@@ -1,0 +1,305 @@
+			nav {
+            background: transparent;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+           
+        }
+        @media (max-width: 768px) {
+            nav {
+                background-color: #fff;
+               
+            }
+        }
+        .logo img {
+            height: 80px;
+        }
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        /* General header styles */
+.header {
+    background-color: transparent; /* Start with a transparent background */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+}
+
+/* Sticky header when scrolling */
+.header.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top */
+    background-color: white; /* Change the background to white when sticky */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+}
+
+/* Optional: Styling for the navigation and logo */
+.header .logo a img {
+    height: 80px
+}
+
+.header .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* For mobile and responsive menu button */
+.mobile-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Optional: Styling for other elements */
+.header a {
+    text-decoration: none;
+}
+
+        #nav-links {
+            display: none;
+        }
+        .mobile-btn {
+            display: block;
+            font-size: 24px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: black;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            right: 0; /* Move to the right side */
+            background-color: #3b3b3b;
+            overflow-x: hidden;
+            transition: width 1.1s ease-in-out;
+            padding-top: 30px;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2); /* Shadow on the left */
+            overflow-y: auto;
+			z-index: 1100;
+        }
+        .sidenav a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 14spx;
+            color: #efecec;
+            display: block;
+            transition: background 0.3s ease;
+            font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+       /* .sidenav a:hover {
+            background: #111010;
+        }*/
+        .closebtn {
+            /*position: absolute;*/
+            top: 10px;
+            left: 2px; /* Adjusted to left inside sidenav */
+            font-size: 32px;
+            cursor: pointer;
+			float:right;
+			margin-top:-15%;
+        }
+        .submenu {
+            display: none;
+            background: #07060621;
+            padding-left: 20px;
+        }
+        .submenu a {
+            font-size: 13px;
+            padding: 10px 20px;
+			line-height:1.1;
+        }
+        .has-submenu {
+            cursor: pointer;
+        }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+a:hover
+{
+	
+	background-color:#376f9e;
+}
+
+	 /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+            margin: 0;
+            
+        }
+        
+        /* Table container with horizontal scroll */
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        }
+        
+        /* Table styles */
+        .responsive-table {
+            width: 100%;
+           /* min-width: 800px;*/ /* Ensure table has a minimum width */
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .responsive-table th,
+        .responsive-table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+            white-space: normal; /* Allow text to wrap within cells */
+        }
+        
+        .responsive-table th {
+            /* background-color: #f2f2f2; */
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        
+        /* Add some visual indication of scrollability on small screens */
+        @media screen and (max-width: 768px) {
+            .table-scroll-hint {
+                display: block;
+                text-align: center;
+                font-style: italic;
+                color: #666;
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media screen and (min-width: 769px) {
+            .table-scroll-hint {
+                display: none;
+            }
+        }
+
+		/* end */
+	body {
+		font-family: Arial, sans-serif;
+		
+		background-color: white;
+	}
+	h1 {
+		text-align: center;
+		color: #333;
+		margin-bottom: 30px;
+	}
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		background-color: white;
+		box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	}
+	th {
+		background-color: #376f9e;
+		color: white;
+		text-align: left;
+		padding: 10px;
+		border: 1px solid #ddd;
+	}
+	td {
+		padding: 10px;
+		border: 1px solid #ddd;
+		vertical-align: top;
+	}
+	tr:nth-child(even) {
+		background-color: #f9f9f9;
+	}
+	
+		body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+
+		color: #333;
+	}
+	
+	h1 {
+		color: #1f3a64;
+		margin-top: 0;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	
+	.search-container {
+		background-color: #f2f2f2;
+		padding: 20px;
+		border-radius: 4px;
+	}
+	
+	.search-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+		gap: 15px;
+	}
+	
+	.form-group {
+		flex: 1;
+		min-width: 200px;
+	}
+	
+	label {
+		display: block;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	
+	input[type="text"] {
+		width: 100%;
+		padding: 8px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+	}
+	
+	.button-group {
+		display: flex;
+		gap: 10px;
+	}
+	
+	button {
+		background-color: #376f9e;
+		color: white;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 4px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	
+	
+	
+	.reset {
+		background-color: #376f9e;
+	}
+	
+	.reset:hover {
+		background-color: #4d8a9a;
+	}
