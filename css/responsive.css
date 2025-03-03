@@ -1130,6 +1130,9 @@
     display: flex;
     justify-content: center;
   }
+  .polititionMain{
+    padding: 0;
+  }
 }
 @media (max-width: 770px) {
   .checkout-coupon-form .btn {
