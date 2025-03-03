@@ -1156,8 +1156,11 @@
     height: 320px !important;
   }
   .backboneOfIndia{
-    padding: 10px;
+    padding: 20px;
     background: #ffffffd1;
+  }
+  .text-center ,.text-center a{
+    text-align: center;
   }
 }
 @media (max-width: 770px) {
