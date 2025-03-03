@@ -1120,9 +1120,10 @@
   .product-info {
     margin-top: 50px;
   }
-  .polititionMain{
+  .polititionMain, .polititionUpper{
     padding-left: 0;
   }
+
 }
 @media (max-width: 767px) {
   .polititionUpper {
